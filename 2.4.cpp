@@ -1,12 +1,14 @@
 #include <stdio.h>
 
-int main() 
-{ 
- int a,b,c,tong; 
- scanf("%d",&a); 
- scanf("%d",&b); scanf("%d",&c); 
- tong=a+b+c; 
- printf("%d\n",tong); 
- printf("%f",(float)tong/3); 
- return 0; 
+int main()
+{
+  float x,y,max ;
+  scanf("%f",&x);
+  scanf("%f",&y);
+  if (x>y)
+  max = x;
+  else
+ 	max=y;
+  printf("%6.2f",max);
+  return 0;
 }
