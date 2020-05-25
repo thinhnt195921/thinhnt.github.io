@@ -1,10 +1,12 @@
 #include <stdio.h>
 #include <conio.h>
+#include <math.h>
  main()
- {int S,n;
-  scanf("%d",&n);
-  S=(n+1)*n/2;
-  printf("%d",S);
+ {float X,Y,F;
+scanf("%f",&X);
+scanf("%f",&Y);
+  if(X==Y) F=7*pow(X,6);
+  else F=(pow(X,7)-pow(Y,7))/(X-Y);
+  printf("%f",F);
   getch();
  }
- 
